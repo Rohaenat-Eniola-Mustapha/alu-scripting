@@ -10,7 +10,7 @@ end
 input_string = ARGV[0]
 
 # Define the regular expression pattern
-pattern = /hbt{1,3}n/
+pattern = /hbt{1,6}n/
 
 # Check if the input string matches the regular expression
 if input_string =~ pattern
