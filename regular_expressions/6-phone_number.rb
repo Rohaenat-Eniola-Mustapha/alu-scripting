@@ -10,7 +10,7 @@ end
 input_string = ARGV[0]
 
 # Define the regular expression pattern
-pattern = /./
+pattern = /^\w.........$/
 
 # Initialize an empty result string to store matches
 result = ""
