@@ -12,10 +12,12 @@ input_string = ARGV[0]
 # Define the regular expression pattern
 pattern = /hbt{1,4}n/
 
-# Check if the input string matches the regular expression
-if input_string =~ pattern
-  puts input_string
-else
-  puts "$"
-end
+# Initialize an empty result string to store matches
+result = ""
+
+# Use the scan method to find all matches and concatenate them
+input_string.scan(pattern) { |match| result += match }
+
+# Print the result
+puts resul
 
