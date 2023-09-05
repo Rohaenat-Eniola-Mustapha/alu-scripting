@@ -1,4 +1,4 @@
-#!usr/bin/env ruby
+#!/usr/bin/env ruby
 
 # Check if there is a single command-line argument
 if ARGV.length != 1
