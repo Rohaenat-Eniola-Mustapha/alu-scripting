@@ -19,5 +19,5 @@ result = ""
 input_string.scan(pattern) { |match| result += match }
 
 # Print the result
-puts resul
+puts result
 
