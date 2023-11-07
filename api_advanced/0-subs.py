@@ -8,7 +8,13 @@ the function should return 0.
 """
 
 
+import json
 import requests
+
+
+"""
+Define HTTP headers for the API requests
+"""
 
 
 def number_of_subscribers(subreddit):
