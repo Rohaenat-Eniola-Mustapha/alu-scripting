@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 Reddit API Subreddit Subscriber Count
 
