@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Reddit API Subreddit Subscriber Count
 
@@ -30,10 +31,6 @@ Note:
 """
 
 import requests
-
-"""
-Reddit API
-"""
 
 def number_of_subscribers(subreddit):
     """
@@ -72,4 +69,4 @@ if __name__ == '__main__':
     else:
         subreddit = sys.argv[1]
         subscribers = number_of_subscribers(subreddit)
-        print(subscribers)
+        [print(subscribers)]
